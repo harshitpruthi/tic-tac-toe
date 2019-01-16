@@ -1,0 +1,62 @@
+
+<div class="header"><h1> Tic Tac @ Hiver</h1></div>
+
+<div class="modal fade" id="modalCenter" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-center">Tic-Tac-Toe</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <h3>Welcome to Tic-Tac-Toe</h3>
+            <p>Would you like to be X or O?</p>
+            <p id="test"></p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" id="x" class="btn" data-dismiss="modal" onClick="setFig(this.id)"><span class="fa fa-times"><span></button>
+            <button type="button" id="o" class="btn" data-dismiss="modal" onClick="setFig(this.id)"><span class="fa fa-circle-o"><span></button>
+        </div>
+        </div>
+    </div>
+</div>
+  
+  <div class="modal fade" id="modalWinner" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4>Game Result</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>     
+        <div class="modal-body">
+          <p id="winner_name"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<div class="parentTop">
+    <div class="gridTop">
+        <div id="grid">
+
+        </div>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+
+<!-- Script -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./index.js" ></script>

@@ -1,0 +1,93 @@
+.parentTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridTop{
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+}
+
+.lightBackground {
+    background-color: 00FFFF
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cross{
+    color: #ff0000;
+    font-size: 3em;
+}
+
+.modal-content {
+    background-color: #99e6ff;
+  }
+  
+.modal-header {
+    background-color: #99e6ff;
+
+}
+.modal-header h4 {
+    font-size: 2em;
+}
+
+.modal-body {
+    padding: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.modal-footer {
+    padding: 10px 80px 10px 0px;
+}
+.modal-footer button {
+    background-color: #fff;
+    color: #000;
+    width: 40%;
+    font-size: 2em;
+    transition: 500ms;
+}
+.modal-footer button:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+.fa-circle-o {
+    font-size: 30px;
+    color : rgba(0,0,0,0.5);
+}
+
+.fa-times {
+    font-size: 30px;
+    color : rgba(0,0,0,0.5);
+}
